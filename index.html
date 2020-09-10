@@ -21,8 +21,8 @@
     <div class="container">
         <div class="card align-items-center my-2">
             <div class="my-2">
-                <img v-if="toggle1" src="/img/jack.jpg" class="pet-img"></img>
-                <img v-else src="/img/beta.jpg" class="pet-img"></img>
+                <img v-if="toggle1" src="./img/jack.jpg" class="pet-img"></img>
+                <img v-else src="./img/beta.jpg" class="pet-img"></img>
             </div>
             <button @click="toggle1 = !toggle1" class="mb-2">Cambiar de mascota</button>
         </div>
@@ -35,7 +35,7 @@
         <div class="card py-2 my-2 align-items-center" v-if="message != '' && message.length >= 4 && hasAdopted">
             <div class="text-center d-flex flex-column">
                 <p>¡Adoptaste a {{message}}!</p>
-                <img src="/img/snoopy.png" class="pet-img">
+                <img src="./img/snoopy.png" class="pet-img">
                 <button v-on:click="returnPet" class="btn-danger"> Dar en adopción</button>
             </div>
             
@@ -46,17 +46,17 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div>
-                        <img src="/img/lemur.jpg" class="pet-img-carousel">
+                        <img src="./img/lemur.jpg" class="pet-img-carousel">
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div>
-                        <img src="/img/cat.jfif" class="pet-img-carousel">
+                        <img src="./img/cat.jfif" class="pet-img-carousel">
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div>
-                        <img src="/img/snake.jfif" class="pet-img-carousel">
+                        <img src="./img/snake.jfif" class="pet-img-carousel">
                     </div>
                   </div>
                 </div>
