@@ -1,0 +1,22 @@
+.pet-img{
+    width: 300px;
+    min-width: 300px;
+}
+
+.pet-img-carousel{
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.carousel {
+    width: 500px;
+}
+
+input {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
